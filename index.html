@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Formulários Futsal - IFRS</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Peneira Futsal IFRS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
       margin: 0;
-      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
       display: flex;
       flex-direction: column;
+      min-height: 100vh;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
+      padding: 1rem;
     }
 
     header {
-      background-color: #00693e; /* verde IFRS */
+      background-color: #00693e;
       color: white;
-      padding: 1rem;
-      width: 100%;
+      padding: 1.5rem;
       text-align: center;
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    h1 {
+    header h1 {
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
     }
 
     .container {
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      padding: 2rem;
-      text-align: center;
+      width: 100%;
+      max-width: 400px;
     }
 
     .btn {
-      background-color: #c8102e; /* vermelho IFRS */
+      background-color: #c8102e;
       color: white;
-      border: none;
+      text-align: center;
       padding: 1rem;
-      font-size: 1rem;
-      cursor: pointer;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s;
+      font-weight: 600;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background 0.3s ease, transform 0.2s ease;
     }
 
     .btn:hover {
-      background-color: #a00c24;
+      background-color: #a10f26;
+      transform: scale(1.02);
     }
 
     footer {
       margin-top: auto;
+      text-align: center;
       padding: 1rem;
       background-color: #00693e;
       color: white;
       width: 100%;
-      text-align: center;
+      border-radius: 10px;
       font-size: 0.9rem;
+      box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Formulários da Peneira de Futsal</h1>
+    <h1>Peneira de Futsal - IFRS</h1>
   </header>
 
   <div class="container">
-    <a class="btn" href="https://forms.gle/qVoCu3exoQhhgwQj9" target="_blank">
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc6JBlbSgC7FsgXpHdXjmnUxMKIkO9w4rOqDiO6WWocVqVAAA/viewform?usp=header" target="_blank">
       Formulário Masculino
     </a>
-    <a class="btn" href="https://forms.gle/9vcfQet8o7cj26nC8" target="_blank">
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSftRj2Skaw0TiLhwCRThy_rURpFlD0dw7WpkbvMHyNJKrlDfw/viewform?usp=header" target="_blank">
       Formulário Feminino
     </a>
   </div>
